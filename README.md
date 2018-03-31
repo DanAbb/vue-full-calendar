@@ -27,6 +27,6 @@ Vue.use(VueFullCalendar);
 
 `rightArrow` - Right arrow image
 
-### Events
+### Events
 
 `dateClicked` - Event called on date cell clicked. Passes date array in format [day, month, year]
