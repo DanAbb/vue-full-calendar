@@ -2,8 +2,6 @@
 
 A super simple full page calendar component for vuejs
 
-[Vue.js](https://vuejs.org/) boilerplate for setting up your own component library
-
 ### Install via npm
 
 ```bash
