@@ -24,6 +24,7 @@ Vue.use(VueFullCalendar);
 ### Props
 
 `leftArrow` - Left arrow image
+
 `rightArrow` - Right arrow image
 
 ### Events
