@@ -1,20 +1,40 @@
 <template>
-    <section class="home">
-        <app-header home></app-header>
-        <MyTestComponent :msg="'hello world'"></MyTestComponent>
-        <app-footer></app-footer>
-    </section>
+  <section class="home">
+    <!-- <app-header home></app-header> -->
+
+    <vue-large-calendar
+    :leftArrow="leftArrow"
+    :rightArrow="rightArrow"
+    @dateClicked="doSomething">
+    </vue-large-calendar>
+
+    <!-- <app-footer></app-footer> -->
+  </section>
 </template>
 
 <script>
-    import AppHeader from '../template/Header'
-    import AppFooter from '../template/Footer'
+  import AppHeader from '../template/Header'
+  import AppFooter from '../template/Footer'
 
-    export default {
-        name: 'app',
-        components: {
-            AppHeader,
-            AppFooter
-        }
+  import leftArrow from '../assets/img/left-arrow.png'
+  import rightArrow from '../assets/img/right-arrow.png'
+
+  export default {
+    name: 'app',
+    data () {
+      return {
+        leftArrow,
+        rightArrow
+      }
+    },
+    methods: {
+      doSomething (dateArr) {
+        console.log(dateArr)
+      }
+    },
+    components: {
+      AppHeader,
+      AppFooter
     }
+  }
 </script>

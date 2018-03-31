@@ -1,9 +1,9 @@
-import Test from './components/test'
+import VueFullCalendar from './components/calendar'
 
 import config, { setOptions } from './utils/config'
 
 const components = {
-    Test
+    VueFullCalendar
 }
 
 components.install = (Vue, options = {}) => {
