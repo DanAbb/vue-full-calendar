@@ -2,11 +2,11 @@
   <section class="home">
     <!-- <app-header home></app-header> -->
 
-    <vue-full-calendar
+    <vue-fullpage-calendar
       :leftArrow="leftArrow"
       :rightArrow="rightArrow"
       @dateClicked="doSomething">
-    </vue-full-calendar>
+    </vue-fullpage-calendar>
 
     <!-- <app-footer></app-footer> -->
   </section>

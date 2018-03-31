@@ -1,9 +1,9 @@
-import VueFullCalendar from './components/calendar'
+import VueFullpageCalendar from './components/calendar'
 
 import config, { setOptions } from './utils/config'
 
 const components = {
-    VueFullCalendar
+    VueFullpageCalendar
 }
 
 components.install = (Vue, options = {}) => {

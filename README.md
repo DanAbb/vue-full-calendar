@@ -1,30 +1,30 @@
-# Vue Full Calendar
+# Vue Fullpage Calendar
 
 A super simple full page calendar component for vuejs
 
 ### Install via npm
 
 ```bash
-npm install vue-full-calendar
+npm install vue-fullpage-calendar
 ```
 
 ### Import and use
 
 ```javascript
 import Vue from 'vue';
-import VueFullCalendar from 'vue-full-calendar';
-import 'vue-full-calendar/lib/main.css';
+import VueFullpageCalendar from 'vue-fullpage-calendar';
+import 'vue-fullpage-calendar/lib/main.css';
 
-Vue.use(VueFullCalendar);
+Vue.use(VueFullpageCalendar);
 ...
 ```
 
 ```html
-  <vue-full-calendar
+  <vue-fullpage-calendar
     :leftArrow="leftArrow"
     :rightArrow="rightArrow"
     @dateClicked="doSomething">
-  </vue-full-calendar>
+  </vue-fullpage-calendar>
 ```
 
 ### Props
