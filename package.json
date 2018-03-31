@@ -1,6 +1,6 @@
 {
   "name": "vue-full-calendar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A super simple full page vuejs calendar component",
   "author": "Daniel Abbott <dan@dabb.io>",
   "main": "lib/index.js",
