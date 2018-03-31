@@ -2,11 +2,11 @@
   <section class="home">
     <!-- <app-header home></app-header> -->
 
-    <vue-large-calendar
-    :leftArrow="leftArrow"
-    :rightArrow="rightArrow"
-    @dateClicked="doSomething">
-    </vue-large-calendar>
+    <vue-full-calendar
+      :leftArrow="leftArrow"
+      :rightArrow="rightArrow"
+      @dateClicked="doSomething">
+    </vue-full-calendar>
 
     <!-- <app-footer></app-footer> -->
   </section>

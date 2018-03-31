@@ -19,6 +19,14 @@ Vue.use(VueFullCalendar);
 ...
 ```
 
+```html
+  <vue-full-calendar
+    :leftArrow="leftArrow"
+    :rightArrow="rightArrow"
+    @dateClicked="doSomething">
+  </vue-full-calendar>
+```
+
 ### Props
 
 `leftArrow` - Left arrow image

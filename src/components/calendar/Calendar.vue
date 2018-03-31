@@ -29,7 +29,7 @@
 import moment from 'moment'
 
 export default {
-  name: 'VueLargeCalendar',
+  name: 'VueFullCalendar',
   props: [
     'leftArrow',
     'rightArrow'
