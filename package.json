@@ -1,7 +1,7 @@
 {
-  "name": "vue-component-template",
+  "name": "vue-full-calendar",
   "version": "1.0.0",
-  "description": "Vue component template for creating a vue component library",
+  "description": "A super simple full page vuejs calendar component",
   "author": "Daniel Abbott <dan@dabb.io>",
   "main": "lib/index.js",
   "files": [
@@ -10,10 +10,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/DanAbb/vue-component-template.git"
+    "url": "https://github.com/DanAbb/vue-full-calendar.git"
   },
   "bugs": {
-    "url": "https://github.com/DanAbb/vue-component-template/issues"
+    "url": "https://github.com/DanAbb/vue-full-calendar/issues"
   },
   "scripts": {
     "dev": "node build/dev-server.js",
